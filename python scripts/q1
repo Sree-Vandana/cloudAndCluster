@@ -1,0 +1,6 @@
+db.loopdata.count( 
+{ $or: [ 
+{speed: {$gt: 80}},
+{speed: {$lt: 5}}
+] }
+)
